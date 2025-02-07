@@ -9,11 +9,15 @@
 - **Code Station**: 
   Rede social em que podemos divulgar nossos projetos de forma a poder consultá-los depois. 
    ### Objetivos:
-    - Objetivo do projeto
-    - Associa-los  a tags,
+    - Nome 
+    - Imagem 
+    - Objetivo do projeto,
+    - Associa-los a tags,
     - Linguagem utilizada, 
     - Tempo de duração
-    - Opinião sobre o Projeto
+    - Avaliação com estrelas de 1 a 5 sobre o projeto
+    - Adicionar projetos a página de favoritos
+    - Conseguir pesquisar projetos (por nome, tags, linguagem)
 
 
   
