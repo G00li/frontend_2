@@ -1,18 +1,11 @@
-import './App.css'
-import Counter from './components/Counter'
-import Contador from './components/CounterPlayPause'
-import Relogio from './components/Relogio'
+import ThemeToggle from "./components/ThemeToggle";
+import Home from "./pages/Home";
 
-
-
-function App() {
+export default function App() {
   return (
-    <>
-      <Counter/>
-      <Relogio />
-      <Contador />
-
-    </>
-  )
+    <div>
+      <ThemeToggle />
+      <Home />
+    </div>
+  );
 }
-export default App

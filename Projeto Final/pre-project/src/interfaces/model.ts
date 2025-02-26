@@ -8,7 +8,9 @@ export interface Repositorio {
   name: string; 
   descricao: string;
   html_url: string; 
-  language: string; 
+  language: string;
+  public: boolean;
+  
 }
 
 export interface Publicacao {
