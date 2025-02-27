@@ -1,6 +1,6 @@
 "use client"
 
-import Contador from "@/components/contador";
+// import Contador from "@/components/contador";
 import UserList from "@/components/UserList";
 import Image from "next/image";
 

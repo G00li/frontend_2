@@ -3,7 +3,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.scss";
-import Layout from "@/components/layout/Layout";
+// import Layout from "@/components/layout/Layout";
 import { Provider } from "react-redux";
 import { store } from "./Redux/store";
 import { PersistGate } from "redux-persist/integration/react";
@@ -36,9 +36,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Provider store={store}>
-          <PersistGate loading= {null} persistor={persistor}>
             {children}
-          </PersistGate>
         </Provider>
       </body>
     </html>
