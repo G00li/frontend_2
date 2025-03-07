@@ -1,9 +1,9 @@
 "use client"
 
-import AnimacaoBasica from "@/components/Animacao";
-import AnimacaoButton from "@/components/AnimacaoButton";
-import AnimacaoItem from "@/components/AnimacaoItem";
-import AnimacaoScroll from "@/components/AnimacaoScroll";
+import AnimacaoBasica from "@/components/Animacao/Animacao";
+import AnimacaoButton from "@/components/Animacao/AnimacaoButton";
+import AnimacaoItem from "@/components/Animacao/AnimacaoItem";
+import AnimacaoScroll from "@/components/Animacao/AnimacaoScroll";
 import Image from "next/image";
 
 export default function Home() {
